@@ -9,7 +9,6 @@ const Contact = () => {
     useEffect(() => {
         const sr = ScrollReveal({
             interval: 200,
-            reset: true,
         });
 
         sr.reveal('.contactHeader', {});
@@ -24,7 +23,6 @@ const Contact = () => {
             origin: 'left',
             distance: '80px',
             duration: 2000,
-            reset: true,
         });
 
         srLeft.reveal('.contactbox', { });
