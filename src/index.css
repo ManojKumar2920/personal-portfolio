@@ -412,24 +412,20 @@ footer {
 
   .mobile-menu {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0px;
+    height: 100vh;
     background-color: #242424;
     z-index: 1000;
   }
 
   .mobile-menu ul {
-    top: 0;
-    left: 0;
-    width: 100%;
     height: 100%;
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    gap: 20%;
+    padding: 5rem 0px 5rem 0px;
   }
 
   .mobile-menu ul li a {
@@ -475,11 +471,12 @@ footer {
   }
 
   .col1 {
-    width: 100%;
+    width: 90%;
     background-color: #6F6E6E;
     color: #fff;
     border-radius: 20px;
     padding: 20px;
+    margin-bottom: 20px;
     box-shadow: 6px 4px 18px rgba(0, 0, 0, 0.4);
   }
 
@@ -570,9 +567,9 @@ footer {
     flex-direction: column;
   }
 
-  .col1,
+  
   .col {
-    width: 100%;
+    width: 90%;
     margin-bottom: 20px;
   }
 
