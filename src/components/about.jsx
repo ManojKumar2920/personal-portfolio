@@ -6,6 +6,7 @@ const About=()=>{
     useEffect(() => {
         const sr = ScrollReveal({
           interval: 200,
+          reset: true,
         });
     
         sr.reveal('.aboutHeader', {});
@@ -20,6 +21,7 @@ const About=()=>{
           origin: 'left',
           distance: '80px',
           duration: 2000,
+          reset: true,
         });
     
         srLeft.reveal('.col1', { delay: 100 });

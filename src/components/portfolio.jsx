@@ -15,6 +15,7 @@ const Portfolio = () => {
     useEffect(() => {
         const sr = ScrollReveal({
             interval: 200,
+            reset: true,
         });
 
         sr.reveal('.portfolioHeader', {});
@@ -29,6 +30,7 @@ const Portfolio = () => {
             origin: 'right',
             distance: '80px',
             duration: 2000,
+            reset: true,
         });
 
         srRight.reveal('.portItem', { delay: 100 });
