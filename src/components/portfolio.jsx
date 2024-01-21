@@ -27,7 +27,7 @@ const Portfolio = () => {
 
     useEffect(() => {
         const srRight = ScrollReveal({
-            origin: 'right',
+            origin: 'left',
             distance: '80px',
             duration: 2000,
 
