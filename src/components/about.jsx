@@ -20,6 +20,7 @@ const About=()=>{
           origin: 'left',
           distance: '80px',
           duration: 2000,
+          reset: true,
         });
     
         srLeft.reveal('.col1', { delay: 100 });
