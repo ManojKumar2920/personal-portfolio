@@ -51,7 +51,7 @@ const Home=()=>{
             <h2 className='whoam'>I'm <span id='typedText'></span></h2>
             <p className='info'>Passionate about creating seamless digital experiences. My expertise lies in building modern websites and extracting actionable insights from data to drive business growth.</p>
             <div className="homebtns">
-              <a ><button>Learn More</button></a>
+              <a href='https://linkedin.com/in/manojkumar20'><button>Hire Me</button></a>
               <a href={cv} download={cv}><button>Download CV</button></a>
             </div>
           </div>

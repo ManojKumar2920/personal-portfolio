@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="middle-footer">
                 <ul className="footer-menu">
                     <li className="footer_menu_list">
-                        <a href="#home">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     <li className="footer_menu_list">
                         <a href="#about">About</a>
@@ -32,7 +32,7 @@ const Footer = () => {
                 <div className="icon"><a href="https://github.com/ManojKumar2920"><FaGithub/></a></div>
             </div>
             <div className="bottom-footer">
-                <p>Copyright © <a href="#home" style={{ textDecoration: 'none' }}>Manoj Kumar</a> - All rights reserved
+                <p>Copyright © <a href="/" style={{ textDecoration: 'none', color:'#3490dc' }}>Manoj Kumar</a> - All rights reserved
                 </p>
             </div>
         </footer>
